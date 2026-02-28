@@ -25,13 +25,7 @@ Antes de instalar el proyecto, asegúrate de tener:
    ```
    composer install
    ```
-
-3. **Instalar dependencias de frontend (opcional si usas estilos):**
-   ```
-   npm install && npm run build
-   ```
-
-4. **Configurar el archivo .env:**
+3. **Configurar el archivo .env:**
    Copia el archivo de ejemplo:
    ```
    cp .env.example .env
@@ -45,13 +39,7 @@ Antes de instalar el proyecto, asegúrate de tener:
    DB_USERNAME=root
    DB_PASSWORD=
    ```
-
-5. **Generar la clave de aplicación:**
-   ```
-   php artisan key:generate
-   ```
-
-6. **Ejecutar migraciones:**
+4. **Ejecutar migraciones:**
    ```bash
    php artisan migrate
    ```
@@ -83,17 +71,3 @@ http://127.0.0.1:8000
 - **Mensajes de éxito/error:** alertas dinámicas al crear, editar o eliminar productos.  
 - **Diseño mejorado:** uso de Bootstrap para tablas, formularios y botones.  
 - **Botones de navegación:** cada vista incluye botón de “Volver al listado”.
-
-## 🔹 Control de versiones
-
-El proyecto está versionado en GitHub con al menos **5 commits** representativos:
-
-1. Inicialización del proyecto Laravel.  
-2. Migración y modelo de productos.  
-3. Controlador `ProductoController`.  
-4. Vistas Blade con layout.  
-5. Mejoras de diseño y mensajes de éxito/error.  
-
-## ✅ Resultado
-
-Un sistema CRUD completo para gestionar productos, con diseño profesional y documentación clara para instalación y ejecución.
