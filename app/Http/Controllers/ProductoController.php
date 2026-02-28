@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Producto;
 
+/**
+ * Controlador para la gestión de productos
+ * Maneja las operaciones CRUD de productos
+ */
 class ProductoController extends Controller
 {
     public function index()
